@@ -12,7 +12,7 @@ INSTALL NPM:
 For this you need to install node.
 
 For windows: Install node software. Npm will be installed
-For Linux:   sudo apt install nodejs
+For Linux:  ``` sudo apt install nodejs ```
 
 --------------------------------------------------------------------------------------------------
 
