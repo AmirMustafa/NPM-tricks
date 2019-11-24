@@ -6,7 +6,7 @@ This repository just shares the all the commands in npm and tricks
 Node Package Manager
 ====================
 
-1.  Check installed or not: npm -v in terminal
+1.  Check installed or not: ```npm -v ``` in terminal
 
 INSTALL NPM:
 For this you need to install node.
@@ -20,16 +20,16 @@ COMMANDS IN NPM
 ================
 A> UPDATE NPM AND HELP COMMANDS
 -------------------------------
-1. npm install npm@latest -g       // updates npm package
-2. npm help                        // get all the commands of npm
+1. ```npm install npm@latest -g ```       // updates npm package
+2. ```npm help```                        // get all the commands of npm
 
 B> INITIALIZE THE PACKAGE
 ----------------------
-3. npm init                        // initialize the package.json file      
-4. npm init -y                     // sets default value without asking
+3. ```npm init```                        // initialize the package.json file      
+4. ```npm init -y```                     // sets default value without asking
 
-5. npm config list                 // get all the config name
-6. npm config list -l              // get all the config name
+5. ```npm config list```                 // get all the config name
+6. ```npm config list -l```              // get all the config name
 
 C> NPM CONFIGURATION
 ---------------------
@@ -37,23 +37,23 @@ C> NPM CONFIGURATION
 
 a. SET KEYWORD
 
-npm config set init-author-name "Amir Mustafa"
+```npm config set init-author-name "Amir Mustafa"```
 
 Now you run point 4 in package.json it will be generated with the name entered
 
 b. GET KEYWORD
-npm config get init-author-author-name
+```npm config get init-author-author-name```
 
 c. EDIT CONFIG list
-npm config list
-npm config list -l  // get full list details
+```npm config list```
+```npm config list -l```  // get full list details
 
 d. To edit npm file globally
-npm config edit --global
+```npm config edit --global```
 
 e. DELETE KEYWORD
-npm config delete <keyword>
-npm config delete init-author-name
+```npm config delete <keyword>```
+```npm config delete init-author-name```
 
 ----------------------------------------------------------------------------------------------
 CHECK PACKAGE NAME 
@@ -69,11 +69,11 @@ INSTALL PACKAGE
 npm install <package-name>
 
 eg.
-npm install lodash          // Basic way
-npm install lodash@latest   // Get the latest version
-npm install lodash@2.1.1    // Get the specific version
-npm i lodash                // i keyword instead of install
-npm i lodash --save-dev     
+```npm install lodash```          // Basic way
+```npm install lodash@latest```   // Get the latest version
+```npm install lodash@2.1.1 ```   // Get the specific version
+```npm i lodash ```               // i keyword instead of install
+```npm i lodash --save-dev ```     
 
 --save-prod or -P       // By default
 --save-dev or -D        //  Package will appear in your devDependencies
@@ -98,47 +98,47 @@ INSTALL PACKAGE
 
 Suppose you have package.json file will all dependencies. To get all the package in node_modules
 
-npm install
+```npm install```
 
 UPDATE PACKAGE
 --------------
 some of the ways to update:
 
 Suppose package.json files is updated manually
-npm update package
-npm upgrade package
-npm up package
+```npm update package```
+```npm upgrade package```
+```npm up package```
 
 
 DELETE A PACKAGE
 ------------------
 some of the ways to update:
 
-npm uninstall lodash
-npm remove lodash --save
-npm rm lodash 
-npm r lodash
-npm un lodash
-npm unlink lodash
+```npm uninstall lodash```
+```npm remove lodash --save```
+```npm rm lodash ```
+```npm r lodash```
+```npm un lodash```
+```npm unlink lodash```
 ----------------------------------------------------------------------------------------------
 
 OPEN OFFICIAL SITE OF The PACKAGE
 ==================================
 
 npm docs <package_name>
-npm docs lodash
+```npm docs lodash```
 ----------------------------------------------------------------------------------------------
 
 GET LIST OF PACKAGE INSTALLED IN YOUR CURRENT NPM
 =================================================
 
-npm ls  // gives list in tree format
+```npm ls```  // gives list in tree format
 
 -----------------------------------------------------------------------------------------------
 
 START
 ======
-npm start - This executes the command written in start property of the package.json file 
+```npm start``` - This executes the command written in start property of the package.json file 
 eg in react we start by typing 
 
 npm start - this executes react-scripts start command
